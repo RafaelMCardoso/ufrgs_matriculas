@@ -1,6 +1,5 @@
 PosMat<-function(Horav="all",Dia1v=NULL,Dia2v=NULL){
   data<-read.csv("PossibMatric.CSV")
- 
   ##cria a variavel d_data que sera aninhada a variavael h_data para mostrar o resultado final   
   ##d_data depende dos valores de Dia1v e Dia2V
   ##Dia2v existe somente quando a cadeira é dividida em 2 dias; portando nunca existira Dia2v se Dia1v for NULL
