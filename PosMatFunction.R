@@ -17,7 +17,7 @@ PosMat<-function(Horav="all",Dia1v=NULL,Dia2v=NULL){
   }
     else{
       h_data<-d_data[,cols]
-      message("Mostrando todas as aulas para os dias selecionados")
+      message("Mostrando todas as aulas para o(S) dia(s) selecionado(s)")
     }
   print(h_data)
   ##End of fuction
